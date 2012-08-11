@@ -1,0 +1,202 @@
+!#include "/home/simon/colors/colorshot"
+!##include "/home/simon/colors/w0ng2"
+!#include "/home/simon/colors/crshd"
+!#include "/home/simon/colors/w0ng"
+ratmen.align: left
+ratmen.background: #121212
+ratmen.foreground: #CACACA
+ratmen.font: -windows-montecarlo-medium-r-normal--11-110-72-72-c-60-microsoft-cp1252
+ratmen.mouse: false
+ratmen.scrollOffset: 5
+ratmen.unfocusExit: true
+
+xterm*metaSendsEscape: true
+!Xterm*facename: -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-iso8859-1 
+Xterm*facename: -xos4-terminus2-medium-r-normal--0-0-72-72-c-0-iso8859-1
+!
+!---------------------------------------------------------------------------!
+!                                                                           !
+!                               .Xdefaults                                  !
+! Author:       dougpiston                                                  !
+! Modified:     06/02/2012                                                  !
+! Colors:       JellyBeans                                                  !
+! q
+! From:         http://dotshare.it/dots/232/                                !
+!                                                                           !
+!---------------------------------------------------------------------------!
+
+
+! Xft settings ---------------------------------------------------------------
+Xft.dpi:                       96
+Xft.antialias:                  true
+Xft.rgba:                       rgb
+Xft.hinting:                    true
+Xft.hintstyle:                  hintslight
+Xft.lcdfilter:  lcddefault
+!----------------------------------------------------------------------------!
+!									                                         !
+!	U R X V T - Settings						                             !
+!									                                         !
+!----------------------------------------------------------------------------!
+!URxvt*font: xft:PragmataPro-8
+!URxvt*font: -jmk-dweep-medium-r-semicondensed--11-100-75-75-c-50-iso8859-1
+!URxvt*font: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
+URxvt*font: neep-8
+URxvt*boldFont: neep-8
+!URxvt*font: -jmk-beep-medium-r-normal--11-100-75-75-c-60-iso8859-1
+!URxvt*font: -jmk-neep alt-medium-r-semicondensed--11-100-75-75-c-50-iso8859-1
+!URxvt*font: -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-iso8859-1
+URxvt*geometry:					100x35
+URxvt*borderLess:				false
+URxvt*internalBorder: 3
+
+URxvt*depth:					32
+URxvt*scrollBar_right:			true
+!URxvt*font:					    xft:PragmataPro:pixelsize=11
+!URxvt*boldFont:					xft:pragmatapro:bold:pixelsize=10
+Urxvt*cursorColor:				white
+URxvt*scrollColor:				#111111
+URxvt*perl-ext-common:			
+default,clipboard-osc,matcher,readline,selection,selection-autotransform,selection-pastebin,remote-clipboard,overlay-osc,macosx-clipboard-native
+!URxvt.perl-ext-common: macosx-clipboard
+!URxvt.keysym.M-x: perl:macosx-clipboard:paste
+!URxvt.keysym.M-z: perl:macosx-clipboard:copy
+URxvt.scrollBar:				off
+URxvt.tabbed.tabbar-fg:			 7
+URxvt.tabbed.tabbar-bg: 		-1
+URxvt.tabbed.tab-fg:    		4
+URxvt.tabbed.tab-bg:    		-1	
+URxvt*termName:				 	rxvt-256color
+!URxvt.urlLauncher:			  /usr/bin/conkeror	
+URxvt.matcher.button:			1
+URxvt.urgentOnBell:  			true
+
+!-------------------------------------------------------------------------!
+!									                                      !
+!	U R X V T - Colors						                              !
+!									                                      !
+!-------------------------------------------------------------------------!
+
+!yeahconsole*keyFull: None+F11
+!#include "/home/simon/colors/colorshot"
+!#include "/home/simon/colors/crshd"
+yeahconsole*restart: 1
+yeahconsole*toggleKey:  Shift+F12
+!yeahconsole*keyBigger:  Shift+F11
+!yeahconsole*keySmaller: Shift+XK_KP_F1+XK_KP_Left
+!yeahconsole*keyFull:    Shift+XK_KP_F1+XK_KP_F3
+!yeahconsole*background: #1c2027   
+yeahconsole*foreground:   white
+yeahconsole*loginShell: True
+yeahconsole*consoleHeight:  35
+yeahconsole*stepSize:   5
+yeahconsole*aniDelay:   3
+yeahconsole*handleWidth:  2
+yeahconsole*handleColor:  SteelBlue
+yeahconsole*term: xterm
+yeahconsole*scrollBar:  false
+yeahconsole*reverseVideo:   false
+!yeahconsole*tintColor:  #000000
+!yeahconsole*inheritPixmap:  true
+!yeahconsole*shading:    25
+!yeahconsole*saveLines:  10000
+!yeahconsole*cursorBlink:  true
+yeahconsole*font: xft:Montecarlo:pixelsize=11
+
+!TomorrowNight
+
+! colours for bold, underline, italic
+URxvt.colorIT: #b5bd68
+URxvt.colorBD: #cc6666
+URxvt.colorUL: #81a2be
+
+
+! X T E R M ==============================================================
+
+xterm*borderWidth:        0
+xterm*dynamicColors:      true
+xterm*faceName:           xft:Pragmata:pixelsize=8.5
+xterm*geometry:           90x10
+xterm*utf8:               2
+xterm*background: #161616
+xterm*foreground: #999993
+xterm*cursorColor: #ff8939
+xterm*borderColor: #161616
+xterm*colorUL: #31658C
+xterm*borderless: true
+xterm*internalBorder: 3
+xterm*externalBorder: 3
+xterm*cursorBlink: true
+xterm*transparent: true
+xterm*shading: 4
+xterm*depth: 32
+
+
+! D M E N U ==============================================================
+
+dmenu.font:		Pragmata:size=7
+dmenu.foreground:	#808080
+dmenu.background:	#151515
+dmenu.selforeground:	#151515
+dmenu.selbackground:	#ee3b3b
+
+
+! Y E A H C O N S O L E ==================================================
+
+yeahconsole*term: xterm 
+yeahconsole*consoleHeight: 14
+yeahconsole*toggleKey: none+F12
+yeahconsole*aniDelay: 0
+yeahconsole*stepSize: 14
+yeahconsole*screenWidth: 1280
+yeahconsole*borderWidth: 0
+yeahconsole*borderless: true
+yeahconsole*dynamicColors:      true
+yeahconsole*faceName:           xft:Pragmata:pixelsize=8.5
+yeahconsole*colorUL: #31658C
+yeahconsole*background: #161616
+yeahconsole*foreground: #999993
+yeahconsole*cursorColor: #ff8939
+yeahconsole*borderColor: #161616
+yeahconsole*cursorBlink: true
+yeahconsole*internalBorder: 3
+yeahconsole*externalBorder: 3
+yeahconsole*utf8: 2
+yeahconsole*transparent: true
+yeahconsole*shading: 4
+yeahcolsole*depth: 32
+
+*foreground: #CACACA
+*background: #121212
+
+!black
+*color0: #1C1C1C
+*color8: #4D4D4D
+!red
+*color1: #D81860
+*color9: #F00060
+!green
+!*color2: #B7CE42
+!*color10: #BDE077
+*color2: #454545
+*color10: #9C9C9C
+!yellow
+*color3: #FEA63C
+*color11: #FFE863
+!blue
+*color4:#395573
+*color12:#4779B3
+!magenta
+*color5:#5E468C
+*color13:#7F62B3
+!!
+!*color5: #B7416E
+!*color13: #BB4466
+!cyan
+!*color6: #5E7175
+*color6: #454545
+*color14: #414141
+!*color14: #A3BABF
+!white
+*color7: #818181
+*color15: #474747
